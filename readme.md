@@ -4,5 +4,3 @@ This repository holds the talks, documentation, and code for two DevelopIntellig
 
 - Fundamentals of API Development
 - Intermediate API Development
-
-
