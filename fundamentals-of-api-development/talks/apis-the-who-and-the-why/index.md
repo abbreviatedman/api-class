@@ -95,6 +95,22 @@ What companies have APIs?
 They must be doing something right...
 
 ---
+
+## So Does Everyone Else
+
+<!-- incremental-list -->
+
+- PayPal
+- Zillow
+- eBay
+- TicketMaster
+- Yelp
+- Spotify and Reddit
+- Twilio and CapitalOne and Walmart
+- MSNBC and eTrade and Etsy and Stripe and Uber and Expedia and FedEx and MSNBC and
+- Basically everyone.
+
+---
 ## Example APIs
 
 Let's take a break and try accessing some!
@@ -115,7 +131,46 @@ Note: here are the links for easy sharing from speaker view - Coindesk: https://
 
 # Why Build APIs?
 
-## Potential Benefits Of Sharing Data
+## Potential Benefits 
+
+---
+
+## Why Do Companies Share Their Valuable Data?
+
+What do _you_ think?
+
+- 
+
+---
+
+# Let's See Some Real-World Reasons!
+
+Why would 
+
+![](./assets/images/why.gif)
+
+---
+
+## Indirect Benefits
+
+Giving away certain data can help build:
+
+- A larger **partner** **ecosystem**. (eBay wants more sellers.)
+- A **competitive** **advantage**. (The number of clients for tracking FedEx packages gives them a leg up.)
+- Better **brand** **recognition**. (indeed wants you to think of them next time you look for a job.)
+- More **agility** and **autonomy** of individual features. (Every single team at Amazon has its own API for other teams to access!)
+
+As you can see, that's a LOT of potential indirect benefits.<!-- .element: class="fragment" -->
+
+---
+
+## Direct Revenue
+
+If a company's data is in demand, it can simply sell that data as an additional revenue stream.
+
+![](./assets/images/your-data-is-valuable.gif)
+
+Twilio and The Weather Company use this model.
 
 ---
 
@@ -131,9 +186,12 @@ Areas showing _massive_ growth in API development include:
 
 ---
 
+## So Now We Know The Who And Why
+
+Time to really get started on the What.
+
+---
 
 <!-- ending-splash-page -->
 
-## Thank You For Your Time So Far
-
-Let's Get Started!
+# Let's Get Coding!
