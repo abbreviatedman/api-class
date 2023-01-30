@@ -37,9 +37,9 @@ But how does the API know what we want to _do_ with that collection of data?
 ---
 ## Nouns and Verbs
 
-The next piece of the puzzle is what's called an HTTP Verb.
+The next aspect of the language is what's called an HTTP verb.
 
-It's a part of each network request an app makes to an API. The most common ones are:
+The HTTP verb a part of each network request an app makes to an API. The most common ones are:
 
 `GET` - "send me back resource(s)"
 `POST` - "create a new item in this resource collection"

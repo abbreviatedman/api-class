@@ -74,8 +74,8 @@ A great example of this is finance.
 
 ## REST
 
-- Started in 2000 from a research paper.
-- Can be used to send any data (json now most popular)
+- Started in 2000 from a CS research paper.
+- Can be used to send any data (JSON now most popular)
 
 Pros:
 
@@ -109,7 +109,7 @@ REST APIs do NOT have to:
 What makes a REST API?
 
 1. Client-Server Relationship
-2. Uniform Interface
+2. Uniform Interface (we discussed this)
 3. Statelessness
 4. Caching
 5. Layered System
