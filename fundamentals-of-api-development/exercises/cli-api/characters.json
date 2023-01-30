@@ -3,7 +3,10 @@
     "id": 0,
     "name": "Jane Chatwin",
     "comonName": "Jane",
-    "aliases": ["Eliza", "The Watcherwoman"],
+    "aliases": [
+      "Eliza",
+      "The Watcherwoman"
+    ],
     "appearances": [
       "Unauthorized Magic",
       "The Source of Magic",
@@ -18,7 +21,11 @@
     "id": 1,
     "name": "Henry Fogg",
     "comonName": "Dean Fogg",
-    "aliases": ["Dean", "The Dean", "Fogg"],
+    "aliases": [
+      "Dean",
+      "The Dean",
+      "Fogg"
+    ],
     "appearances": [
       "Unauthorized Magic",
       "The Source of Magic",
@@ -33,7 +40,9 @@
     "id": 2,
     "name": "Quentin Coldwater",
     "comonName": "Quentin",
-    "aliases": ["Q"],
+    "aliases": [
+      "Q"
+    ],
     "appearances": [
       "Unauthorized Magic",
       "The Source of Magic",
@@ -55,13 +64,18 @@
     "name": "Jennifer London",
     "comonName": "Dr. London",
     "aliases": [],
-    "appearances": ["Unauthorized Magic", "The World in the Walls"]
+    "appearances": [
+      "Unauthorized Magic",
+      "The World in the Walls"
+    ]
   },
   {
     "id": 4,
     "name": "Julia Wicker",
     "comonName": "Julia",
-    "aliases": ["Jules"],
+    "aliases": [
+      "Jules"
+    ],
     "appearances": [
       "Unauthorized Magic",
       "The Source of Magic",
@@ -94,14 +108,21 @@
     "id": 6,
     "name": "Rupert Chatwin",
     "comonName": "Rupert",
-    "aliases": ["The Dark King", "Seb"],
-    "appearances": ["Unauthorized Magic"]
+    "aliases": [
+      "The Dark King",
+      "Seb"
+    ],
+    "appearances": [
+      "Unauthorized Magic"
+    ]
   },
   {
     "id": 7,
     "name": "Martin Chatwin",
     "comonName": "Martin",
-    "aliases": ["The Beast"],
+    "aliases": [
+      "The Beast"
+    ],
     "appearances": [
       "Unauthorized Magic",
       "The Source of Magic",
@@ -116,7 +137,9 @@
     "id": 8,
     "name": "Eliot Waugh",
     "comonName": "Eliot",
-    "aliases": ["El"],
+    "aliases": [
+      "El"
+    ],
     "appearances": [
       "Unauthorized Magic",
       "The Source of Magic",
@@ -178,13 +201,20 @@
     "name": "Professor Van Der Weghe",
     "commonName": "Professor Van Der Weghe",
     "aliases": [],
-    "appearances": ["Unauthorized Magic", "The Source of Magic"]
+    "appearances": [
+      "Unauthorized Magic",
+      "The Source of Magic"
+    ]
   },
   {
     "id": 12,
     "name": "Margo Hanson",
     "commonName": "Margo",
-    "aliases": ["Bambi", "High Queen Margo, The Destroyer", "High King Margo"],
+    "aliases": [
+      "Bambi",
+      "High Queen Margo, The Destroyer",
+      "High King Margo"
+    ],
     "appearances": [
       "Unauthorized Magic",
       "The Source of Magic",
@@ -205,7 +235,9 @@
     "id": 13,
     "name": "Alice Quinn",
     "commonName": "Alice",
-    "aliases": ["Vix"],
+    "aliases": [
+      "Vix"
+    ],
     "appearances": [
       "Unauthorized Magic",
       "The Source of Magic",
@@ -226,7 +258,9 @@
     "id": 14,
     "name": "Pete",
     "commonName": "Pete",
-    "aliases": ["Lovelady"],
+    "aliases": [
+      "Lovelady"
+    ],
     "appearances": [
       "Unauthorized Magic",
       "The Source of Magic",
@@ -238,7 +272,9 @@
     "id": 16,
     "name": "Pearl Sunderland",
     "commonName": "Professor Sunderland",
-    "aliases": ["Sunderland"],
+    "aliases": [
+      "Sunderland"
+    ],
     "appearances": [
       "The Source of Magic",
       "Consequences of Advanced Spellcasting",
@@ -287,7 +323,9 @@
     "name": "Charlie Quinn",
     "commonName": "Charlie",
     "aliases": [],
-    "appearances": ["Consequences of Advanced Spellcasting"]
+    "appearances": [
+      "Consequences of Advanced Spellcasting"
+    ]
   },
   {
     "id": 21,
@@ -318,52 +356,74 @@
     "name": "Emily Greenstreet",
     "commonName": "Emily Greenstreet",
     "aliases": [],
-    "appearances": ["Consequences of Advanced Spellcasting"]
+    "appearances": [
+      "Consequences of Advanced Spellcasting"
+    ]
   },
   {
     "id": 24,
     "name": "Ted Coldwater",
     "commonName": "Quentin's Dad",
-    "aliases": ["Mr. Coldwater"],
-    "appearances": ["The World in the Walls", "Mendings, Major and Minor"]
+    "aliases": [
+      "Mr. Coldwater"
+    ],
+    "appearances": [
+      "The World in the Walls",
+      "Mendings, Major and Minor"
+    ]
   },
   {
     "id": 25,
     "name": "Professor Li",
     "commonName": "Professor Li",
-    "aliases": ["Assistant Professor Li"],
-    "appearances": ["The World in the Walls"]
+    "aliases": [
+      "Assistant Professor Li"
+    ],
+    "appearances": [
+      "The World in the Walls"
+    ]
   },
   {
     "id": 26,
     "name": "Dr. Meers",
     "commonName": "Dr. Meers",
     "aliases": [],
-    "appearances": ["Mendings, Major and Minor"]
+    "appearances": [
+      "Mendings, Major and Minor"
+    ]
   },
   {
     "id": 27,
     "name": "Genji",
     "commonName": "Genji",
     "aliases": [],
-    "appearances": ["Mendings, Major and Minor"]
+    "appearances": [
+      "Mendings, Major and Minor"
+    ]
   },
   {
     "id": 28,
     "name": "Stanley",
     "commonName": "Stanley",
     "aliases": [],
-    "appearances": ["Mendings, Major and Minor", "Remedial Battle Magic"]
+    "appearances": [
+      "Mendings, Major and Minor",
+      "Remedial Battle Magic"
+    ]
   },
   {
     "id": 29,
     "name": "Eleanor Lipson",
     "commonName": "Professor Lipson",
-    "aliases": ["Lipson", "Acting Dean Lipson"],
+    "aliases": [
+      "Lipson",
+      "Acting Dean Lipson"
+    ],
     "appearances": [
       "Mendings, Major and Minor",
       "The Strangled Heart",
       "Homecoming"
     ]
-  }
+  },
+  "{'example': 'me'}"
 ]

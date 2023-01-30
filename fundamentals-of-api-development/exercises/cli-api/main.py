@@ -1,5 +1,5 @@
 # The Magicians Local API Exercise
-
+print("hello everybody!")
 # Your task: create a command-line app to serve as an API to the data in `characters.json` and `quotes.json` (partial data from the TV show The Magicians).
 
 # Please read the following specifications and note the helper functions given
@@ -105,19 +105,19 @@ def post_data_to_json(filename, data):
         json.dump(data, file, indent=2)
 
 
-# YOUR CODE GOES BELOW
+# # YOUR CODE GOES BELOW
 
-file_path = f"{arguments[1]}.json"
-if arguments[0] == "GET":
-    lst = get_data_from_json(file_path)
-    if (len(arguments) == 3):
-        i = int(arguments[2])
-        print(lst[i])
-    else:
-        print(lst)
-elif arguments[0] == "POST":
-    resource = arguments[2]
-    data = get_data_from_json(file_path)
-    data.append(resource)
-    post_data_to_json(file_path, data)
-    print(resource)
+# file_path = f"{arguments[1]}.json"
+# if arguments[0] == "GET":
+#     lst = get_data_from_json(file_path)
+#     if (len(arguments) == 3):
+#         i = int(arguments[2])
+#         print(lst[i])
+#     else:
+#         print(lst)
+# elif arguments[0] == "POST":
+#     resource = arguments[2]
+#     data = get_data_from_json(file_path)
+#     data.append(resource)
+#     post_data_to_json(file_path, data)
+#     print(resource)
