@@ -107,8 +107,8 @@ def post_data_to_json(filename, data):
 
 # # YOUR CODE GOES BELOW
 
-file_path = arguments[1] + ".json"
 action = arguments[0]
+file_path = arguments[1] + ".json"
 if action == "GET":
     lst = get_data_from_json(file_path)
     if len(arguments) == 3:
