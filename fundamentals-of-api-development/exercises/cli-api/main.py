@@ -69,9 +69,16 @@ import json
 # The arguments from the command line.
 arguments = sys.argv[1::]
 
+# save the number the user is typing in PowerShell
+temp = arguments[0]
+# convert that number to fahrenheit
+converted = int(temp)
+temp_in_f = converted / 5 * 9 + 32
+# print the result
+print(temp_in_f)
 # `arguments` should now be a list of command-line arguments.   If the user
 # enters `python main.py the command line is cool.` on the command line,
-# `arguments` will be a list of four items, like so:
+# `arguments` will be a list of five items, like so:
 #
 # ["the", command", "line", "is", "cool."]
 
