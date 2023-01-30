@@ -35,23 +35,24 @@ Called a "resource", each of these plural nouns is a collection of one type of t
 But how does the API know what we want to _do_ with that collection of data?
 
 ---
+
 ## Nouns and Verbs
 
 The next aspect of the language is what's called an HTTP verb.
 
 The HTTP verb a part of each network request an app makes to an API. The most common ones are:
 
-`GET` - "send me back resource(s)"
-`POST` - "create a new item in this resource collection"
-`DELETE` - "remove this resource from the collection"
-`PATCH` - "update this resource in the collection"
+- `GET` - "send me back resource(s)"
+- `POST` - "create a new item in this resource collection"
+- `DELETE` - "remove this resource from the collection"
+- `PATCH` - "update this resource in the collection"
 
 ---
 
 ## Putting Them Together
 
-`GET /characters` - "send me all the characters"
-`GET /quotes` - "send me all the quotes"
+- `GET /characters` - "send me all the characters"
+- `GET /quotes` - "send me all the quotes"
 
 ---
 
@@ -61,8 +62,10 @@ We can extend the noun (url) slightly to target a specific item.
 
 The typical way to do that is to identify _which_ item we want to interact with by adding it to the end of  the URL.
 
-`GET /quotes/8` - "give me the quote with the `id` 8"
-`DELETE /character/Quentin` - "delete the character with the name Quentin".
+- `GET /quotes/8` - "give me the quote with the `id` 8"
+- `DELETE /character/Quentin` - "delete the character with the name Quentin".
+
+---
 
 ## Adding New Information
 
@@ -70,5 +73,25 @@ Typically, a `POST` or `PATCH` request needs more information—what's the new r
 
 This info can't easily be put into an HTTP verb or a URL, so it's typical to add it as part of a request.
 
-`POST /quotes` with `{"line": "Magicians are cool, huh"}` in the "request body" - "add this quote to the quotes collection."
-`PATCH /characters/3` with `{"name": "Colin"}` in the "request body" - "Change the attribute name to be 'Colin' in the character with the `id` of 3."
+Let's see some examples.
+
+---
+
+- `POST /quotes` with `{"line": "Magicians are cool, huh"}` in the "request body" - "add this quote to the quotes collection."
+- `PATCH /characters/3` with `{"name": "Colin"}` in the "request body" - "Change the attribute name to be 'Colin' in the character with the `id` of 3."
+
+---
+
+## Like Learning A New Language
+
+It might take some practice speaking the REST grammar, but soon you can get up to speed with any REST API in a flash.
+
+---
+
+<!-- ending-splash-page -->
+
+## REST Grammar
+
+### Let's Learn It!
+
+---
