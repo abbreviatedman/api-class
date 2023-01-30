@@ -97,9 +97,9 @@ def post_data_to_json(filename, data):
     Does not return a value. (Besides the Python default value `None`.)
 
     NOTE: this will overwrite the data in the file. Be sure to include the old
-        data in your argument to this function.  (A backup copy of the file has
-        been provided. Copy it over should you need it. Do not write to the
-        backup.)
+        data in your argument to this function.  (A backup copy of both files has
+        been provided. Copy one over should you need it. Do not write to the
+        backups.)
     """
     with open(filename, "w") as file:
         json.dump(data, file, indent=2)
