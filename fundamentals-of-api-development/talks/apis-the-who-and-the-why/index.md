@@ -84,7 +84,10 @@ Users  of the API (or "consumers") can:
 
 What companies have APIs?
 
-- 
+-  Asana
+-  Definitive Healthcare
+-  Bullhorn
+-  Various CRMs
 
 ---
 
@@ -127,6 +130,64 @@ Note: here are the links for easy sharing from speaker view - Coindesk: https://
 
 ---
 
+## How Do We Read The Data We Get Back?
+
+It's in JSON format, so let's take a quick look at that.
+
+---
+
+## JSON
+
+JavaScript Object Notation
+
+Looks like JS (and is based on it), but can be read by other languages.
+
+---
+
+## An Example
+
+```json
+{
+  "name": "Eva",
+  "breed": "Corgi",
+  "triggers": ["vacuum cleaners", "hats"],
+  "counterSurfer": true
+}
+```
+
+---
+
+## Objects Vs. Arrays Vs. Single Values
+
+You would use:
+
+1. An object/dictionary when you're storing **one** thing with **multiple** **characteristics**. A user (with an email and password and everything else) would be stored this way.
+2. An array/list when you have multiple distinct things stored together. A list of email addresses for a user might be stored this way. (And probably as _part of_ a user object.)
+3. A single value is for one thing that has no characteristics. For example, a user's age. Age is just a number,
+
+---
+
+(Or, in Python, dictionaries vs. lists)
+
+```json
+{
+  "name": "Eva",
+  "breed": "Corgi",
+  "triggers": [
+    {
+        "name": "vacuum cleaners"
+        "fearFactor": 9,
+    },
+    {
+        "name": "hats"
+        "fearFactor": 2,
+    },
+  ],
+  "counterSurfer": true
+}
+```
+---
+
 <!-- splash-page -->
 
 # Why Build APIs?
@@ -139,13 +200,14 @@ Note: here are the links for easy sharing from speaker view - Coindesk: https://
 
 What do _you_ think?
 
-- 
+- To partner with another company without them using their interface.
+- Pooling data resources.
 
 ---
 
 # Let's See Some Real-World Reasons!
 
-Why would 
+Why would a company release its data for other apps to use?
 
 ![](./assets/images/why.gif)
 
