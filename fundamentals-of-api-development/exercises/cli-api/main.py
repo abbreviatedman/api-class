@@ -109,8 +109,11 @@ def post_data_to_json(filename, data):
 
 # TIPS:
 #
-# You can use more advanced architecture, but if/elif/else chains are totally fine for an exercise.
+# You can use more advanced architecture, but if/elif/else chains are totally
+# fine for an exercise.
 #
 # Don't forget case sensitivity!
 #
-#
+# If you're unused to Python, some quick internet research should uncover how
+# to append strings, convert strings to numbers, add to a list (what Python
+# calls arrays), etc.
