@@ -106,3 +106,11 @@ def post_data_to_json(filename, data):
 
 
 # YOUR CODE GOES BELOW
+
+# TIPS:
+#
+# You can use more advanced architecture, but if/elif/else chains are totally fine for an exercise.
+#
+# Don't forget case sensitivity!
+#
+#
