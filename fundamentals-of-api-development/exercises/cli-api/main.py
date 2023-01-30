@@ -106,18 +106,3 @@ def post_data_to_json(filename, data):
 
 
 # YOUR CODE GOES BELOW
-
-file_path = f"{arguments[1]}.json"
-if arguments[0] == "GET":
-    lst = get_data_from_json(file_path)
-    if (len(arguments) == 3):
-        i = int(arguments[2])
-        print(lst[i])
-    else:
-        print(lst)
-elif arguments[0] == "POST":
-    resource = arguments[2]
-    data = get_data_from_json(file_path)
-    data.append(resource)
-    post_data_to_json(file_path, data)
-    print(resource)
