@@ -50,5 +50,25 @@ The HTTP verb a part of each network request an app makes to an API. The most co
 
 ## Putting Them Together
 
-`GET /characters` - send me all the characters
-`POST /quotes "Magicians are cool, huh"` - add this quote to the quotes collection.
+`GET /characters` - "send me all the characters"
+`GET /quotes` - "send me all the quotes"
+
+---
+
+## Targeting One Item
+
+We can extend the noun (url) slightly to target a specific item.
+
+The typical way to do that is to identify _which_ item we want to interact with by adding it to the end of  the URL.
+
+`GET /quotes/8` - "give me the quote with the `id` 8"
+`DELETE /character/Quentin` - "delete the character with the name Quentin".
+
+## Adding New Information
+
+Typically, a `POST` or `PATCH` request needs more information—what's the new resource to add, or what needs to change in the updated item?
+
+This info can't easily be put into an HTTP verb or a URL, so it's typical to add it as part of a request.
+
+`POST /quotes` with `{"line": "Magicians are cool, huh"}` in the "request body" - "add this quote to the quotes collection."
+`PATCH /characters/3` with `{"name": "Colin"}` in the "request body" - "Change the attribute name to be 'Colin' in the character with the `id` of 3."
