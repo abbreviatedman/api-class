@@ -118,14 +118,15 @@ See if you can create the following routes:
 
 #### Returning Values
 
+Remember that any value you return will be what is returned by the API when the matching route is hit.
+
 #### Loops
 
-Both the Characters and Quotes files contain lists. The easiest way to 
 #### IDs
 
 ##### Getting The IDs
 
-For getting a particular id, you can use a decorator like the following:
+For getting the ID from the URL, you can use a decorator like the following:
 
 ```python
 @app.get("/characters/<string:id>")
@@ -142,6 +143,21 @@ One of the challenges in programming is dealing with data types. Data types, lik
 
 Most things typed in by a user are treated as strings by programming languages, including the ID part of the URL route. But to check the ID against the IDs in the data, which are numbers, you'll need to convert the ID passed into your route function.  You'll have to do **a bit** of research to see how, but you can either do it with a bit of Python code within your function, or with some changes to the Flask route in the decorator.
  
+##### Finding A Resource With An ID
+
+You may have to do some research to fill in here, but the basics are:
+
+1. Loop through the list of resources (characters or quotes). The Python code looks like this:
+
+    ```python
+    for value in list:
+        print(value)
+    ```
+   
+       With whatever you want to do to each value in place of the `print` statement.
+
+2. Check for each value: does its `id` value match the `id` from the URL?  A Python `if` statement is good here!
+
 #### POST Bodies
 
 The POST routes are tricky, but the data sent in the body of the request will be accessible on the imported `request` object. If you call `request.get_json()`, you will get the JSON that was sent in the request, converted to Python for you.
