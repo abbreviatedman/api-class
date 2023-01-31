@@ -175,9 +175,21 @@ Every layer is an intermediary, providing modularity, separation of concerns, an
 
 This optional architectural restraint encourages REST APIs to send links as data.
 
-This restraint is outside our scope for this course, and most REST APIs don't provide it at all.
+The links tell the client what endpoints are valid given the current state of the resource.
+
+Its power lies in the extra information clients can have about using the API.
+
+This restraint is outside our scope for this course. _Most_ REST APIs don't follow it at all!
 
 But Code on Demand is fascinating to read up on.
+
+---
+
+## So What's All This DO For You?
+
+- REST's Uniform Interface gives users a **clear** **language** for accessing APIs.
+- REST's Client-Server Relationship, Statelessness, and Layered System creates an **independent** API.
+- Caching helps to **cut out** some of the **many requests** to make the above **possible**.
 
 ---
 
