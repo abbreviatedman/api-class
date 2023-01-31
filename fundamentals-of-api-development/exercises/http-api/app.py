@@ -54,3 +54,24 @@ def add_character():
 
     return request_data, 201
 
+@app.get("/quotes")
+def get_quotes():
+    return get_data_from_json("quotes.json")
+
+@app.get("/quotes/<string:id>")
+def get_quote(id):
+    quotes = get_data_from_json("quotes.json")
+    for index, quote in enumerate(quotes):
+        if quote["id"] == int(id):
+            return quote
+
+    return 404
+
+@app.post("/quotes")
+def add_quote():
+    request_data = request.get_json()
+    quotes = get_data_from_json("quotes.json")
+    quotes.append(request_data)
+    post_data_to_json("quotes.json", quotes)
+
+    return request_data, 201
