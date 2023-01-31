@@ -39,7 +39,7 @@ def get_characters():
 @app.get("/characters/<string:id>")
 def get_character(id):
     characters = get_data_from_json("characters.json")
-    for index, character in enumerate(characters):
+    for character in characters:
         if character["id"] == int(id):
             return character
 
@@ -61,11 +61,12 @@ def get_quotes():
 @app.get("/quotes/<string:id>")
 def get_quote(id):
     quotes = get_data_from_json("quotes.json")
-    for index, quote in enumerate(quotes):
+    for quote in quotes:
         if quote["id"] == int(id):
             return quote
 
     return 404
+
 
 @app.post("/quotes")
 def add_quote():

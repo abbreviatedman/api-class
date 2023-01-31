@@ -114,6 +114,8 @@ def some_function_name(id):
 Flask will pass in the part of the route after `/characters/` to the matching parameter in your function.
 
 So a request to `GET /characters/4` will result in `"4"` passed in as the value for `id` in your function.
+
+Make sure the name of the value in the route (in this case `id`) matches the parameter name in your function!
  
 #### POST Bodies
 
