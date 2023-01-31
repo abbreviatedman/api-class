@@ -22,9 +22,9 @@ Most REST urls closely follow this pattern:
 
 `www.[domain-name].com/[plural-noun]`
 
-- `www.swapi.tech/api/planets`
-- `https://api.humorapi.com/memes`
 - `http://www.thebookapi.com/authors`
+- `https://api.humorapi.com/memes`
+- `www.swapi.tech/api/planets`
 
 ---
 

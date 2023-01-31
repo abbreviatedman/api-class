@@ -31,3 +31,9 @@ def post_data_to_json(filename, data):
     """
     with open(filename, "w") as file:
         json.dump(data, file, indent=2)
+
+# YOUR CODE GOES BELOW
+
+@app.get("/hey")
+def say_hi():
+    return "Hello, World!"
