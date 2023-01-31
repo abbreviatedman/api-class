@@ -1,8 +1,8 @@
 <!-- splash-page -->
 
-# API Architectures
+# RESTfulness
 
-## What Differentiates REST
+## How Is It Measured?
 
 ---
 
@@ -10,35 +10,30 @@
 
 And answer!
 
-- **What** Are The Different API Architectures?
-- **How** Do They Differ?
-- **Why** Do People Choose REST?
+- **What** Makes A RESTful API RESTful?
+- **How** is it measured?
+- **Why** do API developers and users care
 
 ---
 
 <!-- splash-page -->
 
-# Major API Architectures
+# What Is RESTfulness?
+
 
 ---
 
-- REST (the most common)
-- SOAP
-- RPC
+## RESTfulness Is:
+
+How closely does an API match the specifications?
+
+There are a few ways to measure this:
 
 ---
 
-## RPC
+## The Original Specifications
 
-Remote Procedure Call
 
-- Created in 1998.
-- Is built around calling functions on a server.
-
-Pros:
-
-- High performance.
-- Easy to change.
 
 ---
 
