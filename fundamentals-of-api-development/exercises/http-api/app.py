@@ -32,8 +32,9 @@ def post_data_to_json(filename, data):
     with open(filename, "w") as file:
         json.dump(data, file, indent=2)
 
-# YOUR CODE GOES BELOW
-
+# A simple example route. Go to http://localhost:5000/hey to test it out. Try changing the value returned. Once you're ready, write your own route!
 @app.get("/hey")
 def say_hi():
     return "Hello, World!"
+
+# YOUR CODE GOES BELOW
