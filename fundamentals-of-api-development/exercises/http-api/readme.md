@@ -120,8 +120,6 @@ See if you can create the following routes:
 
 Remember that any value you return from a function will be what is returned by the API when the matching route is hit.
 
-#### Loops
-
 #### IDs
 
 ##### Getting The IDs
