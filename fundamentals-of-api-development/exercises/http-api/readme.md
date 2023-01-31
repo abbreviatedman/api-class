@@ -118,7 +118,7 @@ See if you can create the following routes:
 
 #### Returning Values
 
-Remember that any value you return will be what is returned by the API when the matching route is hit.
+Remember that any value you return from a function will be what is returned by the API when the matching route is hit.
 
 #### Loops
 
