@@ -114,15 +114,15 @@ See if you can create the following routes:
 - `POST /characters` - adds a new character to the JSON file, returning the created character.
 - `POST /quotes` - adds a new character to the JSON file, returning the created character.
 
-### Tips
+## Tips
 
-#### Returning Values
+### Returning Values
 
 Remember that any value you return from a function will be what is returned by the API when the matching route is hit.
 
-#### IDs
+### IDs
 
-##### Getting The IDs
+#### Getting The IDs
 
 For getting the ID from the URL, you can use a decorator like the following:
 
@@ -135,13 +135,13 @@ Flask will pass in the part of the route after `/characters/` to the matching pa
 
 So a request to `GET /characters/4` will result in `"4"` passed in as the value for `id` in your function.
 
-##### Converting IDs
+#### Converting IDs
 
 One of the challenges in programming is dealing with data types. Data types, like strings, numbers, lists, and booleans (`true` and `false`) allow programming languages to perform functions specific to them—like grabbing a sub-string from a string (only a user's first name, for example) or performing a math operation, or checking if a condition is true or not (does the user have admin privileges?).
 
 Most things typed in by a user are treated as strings by programming languages, including the ID part of the URL route. But to check the ID against the IDs in the data, which are numbers, you'll need to convert the ID passed into your route function.  You'll have to do **a bit** of research to see how, but you can either do it with a bit of Python code within your function, or with some changes to the Flask route in the decorator.
  
-##### Finding A Resource With An ID
+#### Finding A Resource With An ID
 
 You may have to do some research to fill in here, but the basics are:
 
@@ -156,7 +156,15 @@ You may have to do some research to fill in here, but the basics are:
 
 2. Check for each value: does its `id` value match the `id` from the URL?  A Python `if` statement is good here!
 
-#### POST Bodies
+### POST Bodies
+
+#### Getting A Body
 
 The POST routes are tricky, but the data sent in the body of the request will be accessible on the imported `request` object. If you call `request.get_json()`, you will get the JSON that was sent in the request, converted to Python for you.
+
+#### Sending A Body
+
+You'll need to send extra information with the POST request: what new resource you want added to the collection.
+
+Your browser cannot send additional info in the Post body. But Postman can!
 
