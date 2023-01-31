@@ -42,10 +42,11 @@ Pros:
 
 ---
 
-## RPS Is Used:
+## RPC Is Used:
 
+- With microservices.
 - When speed and low bandwidth are the #1 priorities
-- When being user-friendly to multiple clients is not.
+- When being user-friendly to multiple clients is not a major priority.
 
 ---
 
@@ -74,6 +75,8 @@ A great example of this is finance.
 
 ## REST
 
+Stands for: REpresentational State Transfer
+
 - Started in 2000 from a CS research paper.
 - Can be used to send any data (JSON now most popular)
 
@@ -82,13 +85,15 @@ Pros:
 - Better performance than SOAP (XML is heavy on the bandwidth)
 - Decoupling and simple standards allow for easily adding new clients.
 
---- 
+---
 
 ## REST Is Used:
 
 Pretty much everywhere else!
 
 Its future-proof modularity and simple, user-friendly architecture makes it perfect for most public APIs.
+
+It's particularly used in data sets with user-facing apps.
 
 ---
 
@@ -169,7 +174,7 @@ The simplest example of this is that the client can _not_ access the database ex
 
 Every layer is an intermediary, providing modularity, separation of concerns, and loose coupling.
 
---- 
+---
 
 ## Code On Demand
 
